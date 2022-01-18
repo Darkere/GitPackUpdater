@@ -10,13 +10,12 @@ $Commit = "";
 $InstanceFolder = Get-Location
 $GitFolder = Join-Path $InstanceFolder $GitFolderName
 $Forge = $null
-$Json = $null
 
 function Read-OldJson {
 # Try read out the old instance name
     if(Test-Path -Path (Join-Path $InstanceFolder "minecraftinstance.json")) {
         $oldjson = Get-Content (Join-Path $InstanceFolder "minecraftinstance.json") -raw | ConvertFrom-Json
-        $InstanceName = $oldjson.name
+        $global:InstanceName = $oldjson.name
     }
 }
 

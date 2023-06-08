@@ -4,12 +4,13 @@ This Script allows you to Update a Pack via Git
 ## Installation
 
 Prerequisites: 
- - Git (https://git-scm.com/downloads)
+ - [Git](https://git-scm.com/downloads)
+ - [Java](https://adoptium.net/)
 
-Step 1: Download the Latest Release from the release section https://github.com/Darkere/GitPackUpdater/releases/
+Step 1: Download the Latest Release from the [releases section](https://github.com/Darkere/GitPackUpdater/releases/)
 
 Step 2: Create a Forge Instance in your preferred launcher
-  - Curseforge: https://i.imgur.com/W2lKQul.png
+  - [Curseforge](https://i.imgur.com/W2lKQul.png)
   - MultiMc/Prism: 
   - GDLauncher:
 
@@ -17,7 +18,7 @@ Step 2: Create a Forge Instance in your preferred launcher
 Step 3: Close your launcher (it may interfere with the install process)
 
 Step 4: Open up the Instance folder
-  - Curseforge: https://i.imgur.com/EoDqNCg.png
+  - [Curseforge:](https://i.imgur.com/EoDqNCg.png)
   - MultiMc/Prism:
   - GDLauncher:
 

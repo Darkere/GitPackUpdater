@@ -1,16 +1,35 @@
 # GitPackUpdater
-Little script that updates packs from git
+This Script allows you to Update a Pack via Git
 
-1. Create an instance in your preferred launcher.
-2. Open the instance folder (folder with the mods, logs, saves folders)
-3. Close your launcher
-4. Run "Run UpdateInstall.bat"
-5. Restart launcher and launch the game!
+## Installation
 
-Optional:
-- To Update to latest dev run the bat file again, and you are done.
+Prerequisites: 
+ - Git (https://git-scm.com/downloads)
+
+Step 1: Download the Latest Release from the release section https://github.com/Darkere/GitPackUpdater/releases/
+Step 2: Create a Forge Instance in your preferred launcher
+  - Curseforge: https://i.imgur.com/W2lKQul.png
+  - MultiMc/Prism: 
+  - GDLauncher:
+Step 3: Close your launcher (it may interfere with the install process)
+Step 4: Open up the Instance folder
+  - Curseforge: https://i.imgur.com/EoDqNCg.png
+  - MultiMc/Prism:
+  - GDLauncher:
+Step 5: Copy the Content of the Release zip file into the Instance Folder
+Step 6: Run the "Run UpdateInstall.bat" file 
+Step 7; Restart launcher and launch the game!
+
+## Updating
+To update the pack
+Step 1: Close Launcher
+Step 6: Run the "Run UpdateInstall.bat" file 
+Step 7; Restart launcher and launch the game!
+
+
+## Options
 - The Script defaults to the master branch. You can change that in the ps1 file near the top. 
-(You may need to change to -ep parameter in the other script to Bypass as changing the file invalidates the singing)
+(You may need to change to -ep parameter in the batch script to Bypass as changing the file invalidates the signing)
 
 - To Update to a specific commit, edit the updateInstall.ps1 and enter the sha in the $Commit variable.
 

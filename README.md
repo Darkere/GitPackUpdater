@@ -7,24 +7,37 @@ Prerequisites:
  - Git (https://git-scm.com/downloads)
 
 Step 1: Download the Latest Release from the release section https://github.com/Darkere/GitPackUpdater/releases/
+
 Step 2: Create a Forge Instance in your preferred launcher
   - Curseforge: https://i.imgur.com/W2lKQul.png
   - MultiMc/Prism: 
   - GDLauncher:
+
+
 Step 3: Close your launcher (it may interfere with the install process)
+
 Step 4: Open up the Instance folder
   - Curseforge: https://i.imgur.com/EoDqNCg.png
   - MultiMc/Prism:
   - GDLauncher:
+
+
 Step 5: Copy the Content of the Release zip file into the Instance Folder
+
+![image](https://github.com/Darkere/GitPackUpdater/assets/4283717/d993ae0a-fafe-46b0-82f8-7bb2e319cde0)
+
 Step 6: Run the "Run UpdateInstall.bat" file 
-Step 7; Restart launcher and launch the game!
+
+Step 7: Restart launcher and launch the game!
 
 ## Updating
-To update the pack
+To update the pack:
+
 Step 1: Close Launcher
+
 Step 6: Run the "Run UpdateInstall.bat" file 
-Step 7; Restart launcher and launch the game!
+
+Step 7: Restart launcher and launch the game!
 
 
 ## Options

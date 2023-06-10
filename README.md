@@ -42,9 +42,7 @@ Step 7: Restart launcher and launch the game!
 
 
 ## Options
-- The Script defaults to the master branch. You can change that in the ps1 file near the top. 
-(You may need to change to -ep parameter in the batch script to Bypass as changing the file invalidates the signing)
-
-- To Update to a specific commit, edit the updateInstall.ps1 and enter the sha in the $Commit variable.
+- The Script defaults to the master branch. You can change this by opening the "Run UpdateInstall.bat" with a text editor and changing the "master" text.
+- To Update to a specific commit you can open the "Run UpdateInstall.bat" and add the sha of that commit at the end after the branch
 
 *Windows only right now. Feel free to PR
